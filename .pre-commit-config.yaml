@@ -8,4 +8,4 @@ repos:
         types_or: [ python, pyi, jupyter ]
         args: [ --fix ]
       - id: ruff-format
-        types_or: [ python, pyi, jupyter ]
+        types_or: [ python, pyi, jupyter ] 
