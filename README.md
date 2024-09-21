@@ -1,7 +1,12 @@
+
 <h1 align="center">chonky</h1>
 
 <p align="center">
-  <img src="https://github.com/ouz-m/chonky/blob/main/chonk.png" alt="chonky" width="256" height="221">
+  <img src="https://github.com/ouz-m/chonky/blob/main/chonk.png" alt="chonky" width="200" height="177">
+</p>
+
+<p align="center">
+MIT Licensed lean toolkit for state-of-the-art text segmentation.
 </p>
 
 <p align="center">
@@ -11,5 +16,5 @@
 </p>
 
 <p align="center">
-  MIT Licensed lean toolkit for state-of-the-art text segmentation.
+🚧 Under construction. 🚧
 </p>
