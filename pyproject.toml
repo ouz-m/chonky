@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "chonky"
+version = "0.1.0"
+description = "A lean toolkit for state-of-the-art text segmentation."
+authors = ["ouz-m"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+regex = "^2024.9.11"
+numpy = "^2.1.1"
+pydantic = "^2.9.2"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.lint]
+extend-select = ["E501"]
