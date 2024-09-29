@@ -9,20 +9,19 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 regex = "^2024.9.11"
-numpy = "^2.1.1"
 pydantic = "^2.9.2"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^8.3.3"
 
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.8.0"
+ruff = "^0.6.8"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.ruff.lint]
-extend-select = ["E501"]
-
-[tool.ruff.format]
-quote-style = "single"
-indent-style = "tab"
-docstring-code-format = true
+[tool.ruff]
+extend = "./ruff.toml"
